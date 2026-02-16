@@ -6,7 +6,7 @@ IN2 = Pin((18),Pin.OUT)
 IN3 = Pin((19),Pin.OUT)
 IN4 = Pin((22),Pin.OUT)
 
-list = [[1,0,0,0] ,[0,1,0,0],[0,0,1,0],[0,0,0,1]]
+list = [[1,1,0,0] ,[0,1,1,0],[0,0,1,1],[1,0,0,1]]
 
 while True:
     for i in list:
